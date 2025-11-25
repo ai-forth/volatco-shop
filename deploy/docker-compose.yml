@@ -30,8 +30,20 @@ services:
       - wp_data:/var/www/html
     networks:
       - wp_network
+  nginx:
+    image: nginx:latest
+    restart: always
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+      - ./localhost.pem:/etc/ssl/certs/localhost.pem
+      - ./localhost-key.pem:/etc/ssl/private/localhost-key.pem
+    ports:
+      - "443:443"
+      - "80:80"
+    networks:
+      - wp_network
+networks:
+  wp_network:
 volumes:
   db_data:
   wp_data:
-networks:
-  wp_network:
