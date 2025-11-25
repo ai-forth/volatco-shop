@@ -32,6 +32,7 @@ services:
       - wp_network
   nginx:
     image: nginx:latest
+    container_name: volatco_proxy
     restart: always
     volumes:
       - ./nginx.conf:/etc/nginx/conf.d/default.conf
