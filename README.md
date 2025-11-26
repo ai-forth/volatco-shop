@@ -1,5 +1,5 @@
 ## The Volatco shop
 
-The eCommerce site for all things Volatco. One thing we try to avoid at this project:
+The eCommerce site for all things Volatco.
 
-![later](/images/do-it-later.jpg)
+Head over to the [deploy](/deploy/README.md) folder and get started.
