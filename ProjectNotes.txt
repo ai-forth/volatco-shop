@@ -2,5 +2,5 @@ November 2025
 Volatco Wordpress Webshop
 
 25.11.2025
-    1336: Do a 'docker-compose up -d' on the file in the deploy folder and there it is.
+    1336: Do 'docker compose up -d' on the file in the deploy folder and there it is.
     
