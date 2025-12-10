@@ -3,4 +3,5 @@ Volatco Wordpress Webshop
 
 25.11.2025
     1336: Do 'docker compose up -d' on the file in the deploy folder and there it is.
-    
+10.12.2025
+    1233: Setting-up this in my debian box. Decision has been taken to use ths technology for transactional websites going forward.
